@@ -1,0 +1,32 @@
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color: #543111;
+    color: #eeee;
+    height: 100px;
+}
+
+.footer-contact{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid white;
+    justify-content: center;
+}
+
+.footer-media{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .footer-icons{
+    font-size: 1.6rem;
+    margin-right: 1rem;
+ }
+
+ footer a{
+    color: #eeee;
+ }

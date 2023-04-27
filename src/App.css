@@ -1,38 +1,71 @@
 .App {
   text-align: center;
+  background-color: #EFEFEF;
+max-width: 100vw;
+  max-height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: -20px;
+  height: 100%
+
+
+}
+.coffee-seed{
+  width: 20%;
+}
+.coffee-main{
+  width: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+.coffee-main img{
+  width: 500px;
+  height: 300px;
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.coffee-main h2{
+  color: rgb(112, 29, 29);
+  font-size: 5rem;
+}
+.coffee-main p{
+  color: rgb(112, 29, 29);
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.coffee-play{
+  width: 25%;
+}
+.coffee-play p{
+  color: rgb(112, 29, 29);
+  font-size: 1.5rem;
+}
+.coffee-seed img{
+  width: 400px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 150px;
+  left: -100px;
+  opacity: 1;
+  animation: fade-in 2s ease-in-out;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    opacity: 1;
   }
+}
+
+#shop-now{
+  background-color: red;
+  border-radius: 30px;
+ font-size: 1.5rem;
+ color: #EFEFEF;
+ margin: 10px;
+ padding: 5px 10px;
 }

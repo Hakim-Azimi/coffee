@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+    width: 50%;
+    justify-content: space-between;
+   
+}
+li a{
+    color: rgb(112, 29, 29);
+}
+ nav img{
+    width: 100px;
+    height: 100px;
+    
+    
+}
+.logo{
+    width: 20%;
+}
