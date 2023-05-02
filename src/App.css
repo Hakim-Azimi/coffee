@@ -41,7 +41,9 @@ main{
 }
 .coffee-play p{
   color: rgb(112, 29, 29);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+
 }
 .coffee-seed img{
   width: 400px;
@@ -62,7 +64,7 @@ main{
 }
 
 #shop-now{
-  background-color: red;
+  background-color: rgb(98, 58, 12);
   border-radius: 30px;
  font-size: 1.5rem;
  color: #EFEFEF;

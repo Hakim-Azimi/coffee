@@ -3,9 +3,11 @@ footer{
     width: 100%;
     justify-content: space-between;
     flex-direction: row-reverse;
-    background-color: #543111;
+    background-color: #ffffff;
     color: #eeee;
     height: 100px;
+    
+    
 }
 
 .footer-contact{
@@ -27,6 +29,7 @@ footer{
     margin-right: 1rem;
  }
 
- footer a{
-    color: #eeee;
+ footer a , p{
+    color: #572a06ee;
  }
+

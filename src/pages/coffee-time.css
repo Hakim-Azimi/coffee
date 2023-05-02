@@ -1,0 +1,104 @@
+
+#coffee-packet{
+    max-width: 500px;
+    margin: 2rem;
+}
+.c-times-left{
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    opacity: .9;
+}
+.c-times-right{
+    width: 40%;
+}
+.c-times-left img{
+   
+}
+
+.times{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+
+.card-1{
+    background-color: #fff;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-1 p{
+    font-size: 20px;
+    text-align: left;
+}
+p{
+    text-align: center !important;
+}
+h1, h3{
+    color: rgb(112, 29, 29);
+    margin: 10px 0;
+
+}
+
+.time-article{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.time-article p{
+    color: black;
+    font-size: 1rem;
+    text-align: left;
+ 
+    line-height: 1.6rem;
+}
+.time-coffee{
+    max-width: 100vw;
+}
+.line{
+    background-color: rgb(112, 29, 29);
+    height: 1px;
+    width: 80%;
+    margin-left: 20px;
+}
+.t-a-1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+width: 93%;
+display: flex;
+justify-content: space-between;
+text-align: start;
+
+}
+.t-a-1-1{
+    width: 50%;
+}
+
+
+#pink-pic{
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+    width: 40%;
+}
+#pink-pic img{
+    width: 450px;
+    margin-right: 40px;
+}
+.t-a-2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 93%;
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+text-align: start;
+}

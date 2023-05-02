@@ -1,0 +1,60 @@
+.types {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+  flex-direction: column;
+}
+.types-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.desc {
+  margin-bottom: 3rem;
+}
+.type {
+  height: 200px;
+  margin: 2rem 10px;
+  scroll-behavior: smooth;
+  background-color: rgb(228, 228, 228, 0.4);
+
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.type img {
+  height: auto;
+  width: auto;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+  height: 3px;
+  background-color: #ffffff;
+}
+
+::-moz-scrollbar {
+  height: 10px;
+  background-color: #fcfcfc;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #cbcbc5;
+}
+
+/* Add rounded corners to the scroll thumb */
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+}
+.t-banner {
+  padding: 1rem;
+}
+.t-banner img {
+  width: 90%;
+}
